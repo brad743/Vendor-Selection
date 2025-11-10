@@ -27,7 +27,7 @@ except Exception:
 # --- Configurable thresholds ---
 TFIDF_THRESHOLD = 0.28        # cosine similarity threshold (0-1)
 FUZZY_THRESHOLD = 75          # rapidfuzz token_set_ratio threshold (0-100)
-SHORTLIST_PCT = 65.0          # percent threshold for shortlist
+SHORTLIST_PCT = 45.0          # percent threshold for shortlist
 
 # --- Utilities ---
 def upload_two_files(prompt="Upload vendor CSV then requirements CSV"):
