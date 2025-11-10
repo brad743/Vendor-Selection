@@ -26,7 +26,7 @@ use_required_flag = st.sidebar.checkbox("Filter to 'required' requirements only 
 show_examples = st.sidebar.checkbox("Show matched / missing examples in table", value=True)
 
 vendor_file = st.file_uploader("📁 Upload Vendor List CSV", type=["csv"])
-req_file = st.file_uploader("📋 Upload Requirements Checklist CSV", type=["csv"])\n
+req_file = st.file_uploader("Upload Requirements Checklist CSV", type=["csv"])\n
 # Utilities
 def guess_column(df, candidates):
     cols = list(df.columns)
